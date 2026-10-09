@@ -1,1 +1,260 @@
 
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CUBINOX | Premium & Aesthetic Mini Toast Chocolate Bites</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts: Playfair Display & Plus Jakarta Sans -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..700;1,400..700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        darkChoco: '#120c08',
+                        cardBg: '#1b120c',
+                        warmCaramel: '#c88a42',
+                        lightCream: '#fbf9f5',
+                        accentGold: '#dfb15b',
+                        whatsappGreen: '#25d366'
+                    },
+                    fontFamily: {
+                        playfair: ['Playfair Display', 'serif'],
+                        sans: ['Plus Jakarta Sans', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        /* Custom smooth scrollbar & effects */
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: #120c08;
+            color: #fbf9f5;
+        }
+        .heading-font {
+            font-family: 'Playfair Display', serif;
+        }
+        .gold-gradient-text {
+            background: linear-gradient(135deg, #fbf9f5 30%, #dfb15b 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+<body class="bg-darkChoco text-lightCream selection:bg-warmCaramel selection:text-darkChoco">
+
+    <header class="fixed top-0 left-0 w-full z-50 bg-darkChoco/90 backdrop-blur-md border-b border-warmCaramel/20 transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+            <a href="#" class="heading-font text-2xl md:text-3xl font-bold tracking-widest text-warmCaramel">
+                CUBINOX
+            </a>
+            <nav class="hidden md:flex items-center space-x-8 text-sm uppercase tracking-wider font-medium">
+                <a href="#home" class="hover:text-warmCaramel transition-colors">Home</a>
+                <a href="#collection" class="hover:text-warmCaramel transition-colors">Collection</a>
+                <a href="#about" class="hover:text-warmCaramel transition-colors">Craftsmanship</a>
+                <a href="#contact" class="hover:text-warmCaramel transition-colors">Gifting</a>
+            </nav>
+            <div class="flex items-center space-x-4">
+                <a href="https://wa.me/919516691813?text=Hi%20CUBINOX,%20I%20want%20to%20inquire%20about%20your%20luxury%20chocolates." target="_blank" 
+                   class="bg-warmCaramel text-darkChoco font-semibold px-5 py-2.5 rounded-full text-sm tracking-wider uppercase shadow-lg hover:bg-accentGold transition-all transform hover:-translate-y-0.5 flex items-center gap-2">
+                    <i class="fab fa-whatsapp text-lg"></i> Connect
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section id="home" class="relative min-h-screen flex items-center justify-center pt-20 px-6 overflow-hidden">
+        <!-- Background Ambient Glows -->
+        <div class="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-warmCaramel/10 rounded-full blur-3xl pointer-events-none"></div>
+        
+        <div class="max-w-4xl mx-auto text-center relative z-10 space-y-8">
+            <span class="inline-block py-1.5 px-4 rounded-full border border-warmCaramel/40 text-warmCaramel text-xs md:text-sm tracking-widest uppercase bg-warmCaramel/5">
+                Artisanal Gifting Experience
+            </span>
+            <h1 class="heading-font text-4xl sm:text-6xl md:text-7xl font-bold leading-tight tracking-wide gold-gradient-text">
+                The Ultimate Mini Toast <br><span class="text-warmCaramel italic font-normal">Chocolate Bites</span>
+            </h1>
+            <p class="text-lightCream/80 text-base sm:text-lg md:text-xl font-light max-w-2xl mx-auto leading-relaxed">
+                Welcome to CUBINOX — Premium chocolate-dipped mini toast bites crafted for elite celebrations like Deepavali, Holi, weddings, and every special moment.
+            </p>
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
+                <a href="#collection" class="w-full sm:w-auto bg-warmCaramel text-darkChoco font-bold px-8 py-4 rounded-md tracking-widest uppercase text-sm hover:bg-accentGold transition-all shadow-xl">
+                    Explore Masterpieces
+                </a>
+                <a href="https://wa.me/919516691813?text=Hi%20CUBINOX,%20I%20would%20like%20to%20place%20a%20bulk/retail%20order." target="_blank" 
+                   class="w-full sm:w-auto border border-warmCaramel/50 text-lightCream px-8 py-4 rounded-md tracking-widest uppercase text-sm hover:bg-warmCaramel/10 transition-all flex items-center justify-center gap-2">
+                    <i class="fab fa-whatsapp text-whatsappGreen text-lg"></i> Direct Order
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="collection" class="py-24 px-6 bg-[#160e0a]">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center space-y-4 mb-16">
+                <span class="text-warmCaramel uppercase tracking-widest text-xs font-semibold">Signature Creations</span>
+                <h2 class="heading-font text-3xl sm:text-5xl font-bold text-lightCream">Our Elite Masterpieces</h2>
+                <div class="w-20 h-0.5 bg-warmCaramel mx-auto mt-2"></div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Product Card 1 -->
+                <div class="bg-cardBg border border-warmCaramel/20 rounded-xl overflow-hidden group hover:border-warmCaramel transition-all duration-300 flex flex-col justify-between shadow-2xl">
+                    <div class="relative h-72 overflow-hidden bg-darkChoco">
+                        <img src="https://images.unsplash.com/photo-1549007994-cb92caebd54b?auto=format&fit=crop&w=800&q=80" alt="Golden Lace Edition" 
+                             class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 opacity-90"
+                             onerror="this.src='https://placehold.co/600x400/1a120b/c88a42?text=Golden+Lace+Edition';">
+                        <div class="absolute inset-0 bg-gradient-to-t from-darkChoco via-transparent to-transparent opacity-80"></div>
+                        <span class="absolute top-4 right-4 bg-darkChoco/80 border border-warmCaramel/40 text-warmCaramel text-xs font-semibold px-3 py-1 rounded-full uppercase">
+                            Bestseller
+                        </span>
+                    </div>
+                    <div class="p-8 space-y-4 flex-1 flex flex-col justify-between">
+                        <div>
+                            <h3 class="heading-font text-2xl font-bold text-lightCream mb-2">Golden Lace Edition</h3>
+                            <p class="text-lightCream/70 text-sm leading-relaxed">
+                                Crispy golden mini toast coated in rich dark chocolate, flawlessly garnished with intricate edible gold lacework for regal indulgence.
+                            </p>
+                        </div>
+                        <a href="https://wa.me/919516691813?text=I%20want%20to%20order%20the%20Golden%20Lace%20Edition%20from%20CUBINOX" target="_blank"
+                           class="w-full py-3 bg-whatsappGreen text-white font-semibold rounded-lg text-center tracking-wider uppercase text-xs flex items-center justify-center gap-2 hover:opacity-90 transition-opacity">
+                            <i class="fab fa-whatsapp text-base"></i> Order via WhatsApp
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Product Card 2 -->
+                <div class="bg-cardBg border border-warmCaramel/20 rounded-xl overflow-hidden group hover:border-warmCaramel transition-all duration-300 flex flex-col justify-between shadow-2xl">
+                    <div class="relative h-72 overflow-hidden bg-darkChoco">
+                        <img src="https://images.unsplash.com/photo-1579372786545-d24232daf58c?auto=format&fit=crop&w=800&q=80" alt="Royal Grid Treat" 
+                             class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 opacity-90"
+                             onerror="this.src='https://placehold.co/600x400/1a120b/c88a42?text=Royal+Grid+Treat';">
+                        <div class="absolute inset-0 bg-gradient-to-t from-darkChoco via-transparent to-transparent opacity-80"></div>
+                        <span class="absolute top-4 right-4 bg-darkChoco/80 border border-warmCaramel/40 text-warmCaramel text-xs font-semibold px-3 py-1 rounded-full uppercase">
+                            Festive Special
+                        </span>
+                    </div>
+                    <div class="p-8 space-y-4 flex-1 flex flex-col justify-between">
+                        <div>
+                            <h3 class="heading-font text-2xl font-bold text-lightCream mb-2">Royal Grid Treat</h3>
+                            <p class="text-lightCream/70 text-sm leading-relaxed">
+                                An exquisite fusion of deep dark chocolate glaze and refined golden geometric patterns designed specifically for premium festive gifting.
+                            </p>
+                        </div>
+                        <a href="https://wa.me/919516691813?text=I%20want%20to%20order%20the%20Royal%20Grid%20Treat%20from%20CUBINOX" target="_blank"
+                           class="w-full py-3 bg-whatsappGreen text-white font-semibold rounded-lg text-center tracking-wider uppercase text-xs flex items-center justify-center gap-2 hover:opacity-90 transition-opacity">
+                            <i class="fab fa-whatsapp text-base"></i> Order via WhatsApp
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Product Card 3 -->
+                <div class="bg-cardBg border border-warmCaramel/20 rounded-xl overflow-hidden group hover:border-warmCaramel transition-all duration-300 flex flex-col justify-between shadow-2xl">
+                    <div class="relative h-72 overflow-hidden bg-darkChoco">
+                        <img src="https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=800&q=80" alt="Velvet Luxe Marble" 
+                             class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 opacity-90"
+                             onerror="this.src='https://placehold.co/600x400/1a120b/c88a42?text=Velvet+Luxe+Marble';">
+                        <div class="absolute inset-0 bg-gradient-to-t from-darkChoco via-transparent to-transparent opacity-80"></div>
+                        <span class="absolute top-4 right-4 bg-darkChoco/80 border border-warmCaramel/40 text-warmCaramel text-xs font-semibold px-3 py-1 rounded-full uppercase">
+                            Ultra Luxury
+                        </span>
+                    </div>
+                    <div class="p-8 space-y-4 flex-1 flex flex-col justify-between">
+                        <div>
+                            <h3 class="heading-font text-2xl font-bold text-lightCream mb-2">Velvet Luxe Marble</h3>
+                            <p class="text-lightCream/70 text-sm leading-relaxed">
+                                Luxurious chocolate-dipped crunch infused with artisanal flair, offering a smooth velvety texture for elite corporate and personal gifting.
+                            </p>
+                        </div>
+                        <a href="https://wa.me/919516691813?text=I%20want%20to%20order%20the%20Velvet%20Luxe%20Marble%20from%20CUBINOX" target="_blank"
+                           class="w-full py-3 bg-whatsappGreen text-white font-semibold rounded-lg text-center tracking-wider uppercase text-xs flex items-center justify-center gap-2 hover:opacity-90 transition-opacity">
+                            <i class="fab fa-whatsapp text-base"></i> Order via WhatsApp
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-24 px-6 bg-darkChoco relative overflow-hidden">
+        <div class="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            <div class="space-y-6">
+                <span class="text-warmCaramel uppercase tracking-widest text-xs font-semibold">The CUBINOX Heritage</span>
+                <h2 class="heading-font text-3xl sm:text-4xl font-bold leading-tight">Crafted for Celebrations, Designed for Luxury.</h2>
+                <p class="text-lightCream/70 font-light leading-relaxed">
+                    At CUBINOX, we believe every celebration deserves something truly extraordinary. By combining traditional crisp mini toasts with premium artisanal dark chocolate and warm caramel notes, we’ve created a delicacy unlike any other.
+                </p>
+                <p class="text-lightCream/70 font-light leading-relaxed">
+                    Whether you are looking for elite B2B corporate gifting or personalized B2C festive hampers for Deepavali and Holi, CUBINOX stands as a hallmark of taste and sophistication.
+                </p>
+                <div class="pt-4">
+                    <a href="https://wa.me/919516691813?text=Hi%20CUBINOX,%20I%20want%20to%20discuss%20bulk%20gifting%20options." target="_blank"
+                       class="inline-flex items-center gap-3 bg-warmCaramel text-darkChoco px-8 py-3.5 rounded font-semibold uppercase tracking-wider text-sm hover:bg-accentGold transition-all">
+                        <i class="fab fa-whatsapp text-lg"></i> Inquire for Bulk Gifting
+                    </a>
+                </div>
+            </div>
+            <div class="relative">
+                <div class="absolute -inset-2 bg-gradient-to-r from-warmCaramel to-accentGold rounded-2xl blur-lg opacity-30"></div>
+                <div class="relative bg-cardBg border border-warmCaramel/30 p-8 rounded-2xl space-y-6">
+                    <h3 class="heading-font text-2xl font-bold text-warmCaramel">Why Choose CUBINOX?</h3>
+                    <ul class="space-y-4 text-lightCream/80 text-sm">
+                        <li class="flex items-start gap-3">
+                            <i class="fas fa-check text-warmCaramel mt-1"></i>
+                            <span>100% Premium Artisanal Dark Chocolate Glaze</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i class="fas fa-check text-warmCaramel mt-1"></i>
+                            <span>Perfect crunch of signature mini toast bites</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i class="fas fa-check text-warmCaramel mt-1"></i>
+                            <span>Exquisite aesthetic packaging for festive occasions</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i class="fas fa-check text-warmCaramel mt-1"></i>
+                            <span>Direct and seamless ordering via WhatsApp</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <a href="https://wa.me/919516691813?text=Hi%20CUBINOX,%20I%20visited%20your%20website%20and%20want%20to%20place%20an%20order." target="_blank"
+       class="fixed bottom-6 right-6 z-50 bg-whatsappGreen text-white w-14 h-14 rounded-full flex items-center justify-center text-3xl shadow-2xl hover:scale-110 transition-transform duration-300 group"
+       aria-label="Contact via WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+        <span class="absolute right-full mr-3 bg-white text-darkChoco text-xs font-semibold px-3 py-1.5 rounded-md shadow-lg opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap pointer-events-none">
+            Chat with CUBINOX
+        </span>
+    </a>
+
+    <footer id="contact" class="bg-[#0b0705] border-t border-warmCaramel/10 py-12 px-6">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6 text-center md:text-left">
+            <div>
+                <span class="heading-font text-2xl font-bold tracking-widest text-warmCaramel">CUBINOX</span>
+                <p class="text-lightCream/50 text-xs mt-2">The Premium & Aesthetic Mini Toast Chocolate Bites.</p>
+            </div>
+            <div class="flex items-center space-x-6 text-sm text-lightCream/70">
+                <a href="#home" class="hover:text-warmCaramel transition-colors">Home</a>
+                <a href="#collection" class="hover:text-warmCaramel transition-colors">Collection</a>
+                <a href="#about" class="hover:text-warmCaramel transition-colors">Craftsmanship</a>
+                <a href="https://wa.me/919516691813" target="_blank" class="hover:text-warmCaramel transition-colors">WhatsApp (+91 95166 91813)</a>
+            </div>
+            <div class="text-lightCream/40 text-xs">
+                &copy; 2026 CUBINOX. All rights reserved. Crafted with elegance.
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
+```
